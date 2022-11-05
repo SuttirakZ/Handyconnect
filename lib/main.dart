@@ -87,7 +87,40 @@ class _MyHomePageState extends State<MyHomePage> {
                   hintText: "Enter your name"),
             ),
           ),
-        )
+        ),
+        Container(
+            alignment: const Alignment(-0.45, -0.175),
+            child: const Text('Please Enter Your Name',
+                style: TextStyle(
+                    fontSize: 22, color: Color.fromRGBO(67, 35, 68, 1)))),
+        Container(
+            alignment: const Alignment(-0.65, 0.25),
+            child: const Text('Select your role',
+                style: TextStyle(
+                    fontSize: 22, color: Color.fromRGBO(67, 35, 68, 1)))),
+        const ListTile(
+          title: Text('ผู้พิการ'),
+        ),
+        const ListTile(
+          title: Text('ผู้ช่วยเหลือ'),
+        ),
+        Container(
+            alignment: const Alignment(0, 0.8),
+            child: SizedBox(
+              width: 320,
+              height: 50,
+              child: ElevatedButton(
+                onPressed: () {},
+                style: ElevatedButton.styleFrom(
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.0)),
+                    elevation: 12.0,
+                    backgroundColor: const Color.fromRGBO(67, 35, 68, 1),
+                    textStyle:
+                        const TextStyle(fontSize: 22, color: Colors.white)),
+                child: const Text('Continue'),
+              ),
+            ))
       ],
     ));
   }
