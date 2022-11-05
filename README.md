@@ -1,4 +1,4 @@
-# handy_connect
+# handyconnect
 
 A new Flutter project.
 

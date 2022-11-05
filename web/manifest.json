@@ -1,6 +1,6 @@
 {
-    "name": "handy_connect",
-    "short_name": "handy_connect",
+    "name": "handyconnect",
+    "short_name": "handyconnect",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
